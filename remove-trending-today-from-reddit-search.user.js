@@ -2,7 +2,7 @@
 // @name         Remove Trending Today from Reddit Search
 // @namespace    https://github.com/ThsUsr
 // @version      1.0
-// @description  Remove Trending Today from Reddit Search
+// @description  Removes Trending Today from Reddit Search
 // @author       ThsUsr
 // @match        https://www.reddit.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
