@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Remove Trending Today from Reddit Search
 // @namespace    https://github.com/ThsUsr
-// @version      1.0
+// @version      1.1
 // @description  Removes Trending Today from Reddit Search
 // @author       ThsUsr
 // @match        https://www.reddit.com/*
