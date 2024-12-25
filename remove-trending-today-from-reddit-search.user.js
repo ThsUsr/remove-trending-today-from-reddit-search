@@ -12,10 +12,6 @@
 // ==/UserScript==
 
 
-const trendingController = document.querySelector('search-dynamic-id-cache-controller');
-const trendingRoot = trendingController.shadowRoot;
-
-
 /**
  * Returns the first element matching the given selector within the trending
  * elements.
@@ -24,7 +20,8 @@ const trendingRoot = trendingController.shadowRoot;
  * @return {Element|null} The first matching element, or null if none match.
  */
 function getTrendingElement(selector) {
-  return trendingRoot.lastElementChild.assignedElements()[0].shadowRoot.querySelector(selector);
+  return document.querySelector('search-dynamic-id-cache-controller').shadowRoot.lastElementChild.assignedElements(
+  )[0].shadowRoot.querySelector(selector);
 }
 
 
